@@ -30,6 +30,7 @@ tutup console agar script jalan dengan baik
 
 ## Cara Penggunaan
 
+*
 * 1. Buka Console
 * 2.tulis "allow paste"
 * 3.paste script diatas
@@ -44,5 +45,8 @@ Catatan:
 * **Tekan "P" untuk memunculkan jawaban ulang**
 * **Author Males Nambahin lagi**
 ## Disclaimer
-This Is Using Indonesian Language Translate It For More Information Bcz The Author Is Lazy
+This Is Using Indonesian Language.
+
+Translate It For More Information Bcz The Author Is Lazy
+
 Contoh ini ditujukan untuk **pengujian, debugging, atau pengembangan** saja. Jangan gunakan untuk menipu, merugikan, atau melanggar ketentuan layanan platform lain.

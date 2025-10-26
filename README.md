@@ -1,20 +1,15 @@
-# PanciWarteg-Project
+## Load via raw.githubusercontent.com (provided URL)
 
-This repository contains an obfuscated script `obfuscated.js` and examples how to load it from a browser.
+File:
+`https://raw.githubusercontent.com/PanciWartegX/PanciWarteg-Project/refs/heads/main/main%20script.js`
 
-> ⚠️ Security & ethics: only use this code for legitimate testing or development. Do **not** use it to cheat or to violate terms of service.
+> NOTE: raw.githubusercontent.com seringkali dapat di-fetch sebagai teks, tetapi **tidak selalu** optimal untuk `import()` sebagai ES module karena header MIME / CORS. Jika import dynamic gagal, gunakan metode fetch + inject (Blob).
 
-## Load via dynamic import (recommended)
-
-Modern browsers that support ES modules can dynamically import the script:
-
+### Dynamic import (tidak direkomendasikan untuk raw.githubusercontent.com)
 ```javascript
-// Pakai CDN jsDelivr agar CORS/MIME lebih andal
-const url = 'https://cdn.jsdelivr.net/gh/PanciWartegX/PanciWarteg-Project@main/obfuscated.js';
+// Mungkin gagal karena CORS/MIME
+const rawUrl = 'https://raw.githubusercontent.com/PanciWartegX/PanciWarteg-Project/refs/heads/main/main%20script.js';
 
-import(url)
-  .then(mod => {
-    console.log('Module loaded', mod);
-    // gunakan export dari module (jika ada)
-  })
-  .catch(err => console.error('Import gagal:', err));
+import(rawUrl)
+  .then(mod => console.log('Module loaded', mod))
+  .catch(err => console.error('Import gagal (raw):', err));

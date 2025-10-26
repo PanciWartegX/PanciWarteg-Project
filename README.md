@@ -33,12 +33,12 @@ tutup console agar script jalan dengan baik
 * 1. Buka Console
 * 2.tulis "allow paste"
 * 3.paste script diatas
-* 4.tutup console (WAJIB!)
+* 4.tutup console **WAJIB!**
 
 Catatan:
 
-* tutup console agar script jalan
-* harus sudah masuk di ruang tunggu saat quiz mau dimulai jangan saat masukin code
+* **tutup console** agar script jalan
+* **harus sudah masuk di ruang tunggu saat quiz mau dimulai jangan saat masukin code**
 ## Fitur
 
 * **Tekan "P" untuk memunculkan jawaban ulang**

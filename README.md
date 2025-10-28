@@ -1,5 +1,6 @@
 # PanciWarteg-Project
 
+**Made By Renan**
 Buka console di browser, lalu tulis "allow paste" lalu enter dan paste skrip di bawah ini dan tekan Enter.
 tutup console agar script jalan dengan baik
 ```javascript

@@ -1,7 +1,7 @@
 # PanciWarteg-Project
 
 **Made By Renan**
-Buka console di browser, lalu tulis "allow paste" lalu enter dan paste skrip di bawah ini dan tekan Enter.
+*Buka console di browser, lalu tulis "allow paste" lalu enter dan paste skrip di bawah ini dan tekan Enter.
 tutup console agar script jalan dengan baik
 ```javascript
 (async () => {
@@ -32,7 +32,7 @@ tutup console agar script jalan dengan baik
 ## Cara Penggunaan
 
 *
-* 1. Buka Console
+* 1.Buka Console(CTRL+SHIFT+I)
 * 2.tulis "allow paste"
 * 3.paste script diatas
 * 4.tutup console **WAJIB!**

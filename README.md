@@ -31,7 +31,6 @@ tutup console agar script jalan dengan baik
 
 ## Cara Penggunaan
 
-*
 * 1.Buka Console (CTRL+SHIFT+I)
 * 2.tulis "allow paste"
 * 3.paste script diatas
